@@ -1,6 +1,6 @@
 package n3exercise1_Command;
 
-public class Airplane extends Vehicle {
+public class Airplane implements Vehicle {
 
     @Override
     public void start() {

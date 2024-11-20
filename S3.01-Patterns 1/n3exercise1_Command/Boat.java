@@ -1,18 +1,18 @@
 package n3exercise1_Command;
 
-public class Boat extends Vehicle{
+public class Boat implements Vehicle{
     @Override
-    void start() {
+    public void start() {
         System.out.println("Boat started moving");
     }
 
     @Override
-    void accelerate() {
+    public void accelerate() {
         System.out.println("Boat accelerated");
     }
 
     @Override
-    void brake() {
+    public void brake() {
         System.out.println("Boat stopped");
     }
 }
